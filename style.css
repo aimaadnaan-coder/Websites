@@ -1,0 +1,51 @@
+h1 {
+    color: blue;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+}
+h2 {
+    color: green;
+}
+table,
+td,
+th {
+    border: 1px solid black;
+}
+tr:last-child(even) {
+    background-color: #8e3d3d;
+}
+span {
+    color: rgb(27, 50, 75);
+}
+footerp p: first-child span {
+    color: red;
+}
+teacher information {
+    color: rgb(27, 50, 75);
+}
+button {
+    background-color: rgb(27, 50, 75);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+ul {
+    list-style-type: none;
+}
+li a {
+    text-decoration: none;
+    color: purple;
+    font-size: 18px;
+    font-weight: 600;
+}
+li a:hover {
+    color: rgb(27, 50, 75);
+}
+p {
+    font-size: 16px;
+}
+h3 {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    text-decoration: underline;
+}
