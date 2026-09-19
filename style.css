@@ -17,10 +17,10 @@ tr:last-child(even) {
 span {
     color: rgb(27, 50, 75);
 }
-footerp p: first-child span {
+footer p:first-child span {
     color: red;
 }
-teacher information {
+.teacher-info {
     color: rgb(27, 50, 75);
 }
 button {
