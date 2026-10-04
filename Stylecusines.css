@@ -1,0 +1,36 @@
+h1 {
+    background-color: #e18080;
+    color: white;
+    text-align: center;
+}
+div.Foods {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #9cd37c;
+    text-align: center;
+    color: rgb(225, 216, 216);
+}
+h2 {
+    background-color: #e18080;
+    color: rgb(79, 23, 23);
+    text-align: center;
+}
+p {
+    background-color: #9cd37c;
+    color: rgb(79, 23, 23);
+    text-align: center;
+}
+aside {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #9cd37c;
+    text-align: center;
+    color: rgb(225, 216, 216);
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
