@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="Heading"> Welcome </h2>
+    <p> Hello</p>
+    <p> Hello how are you?</p>
+
+
+    <script>
+        let div= document.createElement("div");
+        div.id= "Paragraph";
+        div.className=" alert";
+        div.innerHTML= "<p> Congratulations you have created a div </p>";
+        document.body.prepend(div);
+
+        let  para= document.createElement("p");
+        para.id= "demo";
+        para.innerHTML= " This Paragraph is created with JavaScript";
+        document.body.append(para);
+
+
+        let heading= document.getElementById("Heading");
+        heading.innerHTML= "&#128512";
+    </script>
+    
+</body>
+</html>
