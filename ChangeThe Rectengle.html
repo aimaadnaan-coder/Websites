@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change The Rectengle</title>
+    <style>
+        h2 {
+            text-align: center;
+        }
+        .rectengle {
+            border: 2px solid black;
+            width: 200px;
+            height: 200px;
+            margin: auto;
+        }
+        .Buttons {
+            text-align: center;
+            height: 50px;
+            width: 100%;
+            margin-top: 20px;
+        }
+    
+    </style>
+
+
+
+
+
+
+</head>
+<body>
+    <h2>Change The Rectengle</h2>
+
+    <div class="rectengle"></div>
+
+    <div class="Buttons">
+        <button onclick="changeTheCircle()">Change the circle</button>
+        <button onclick="show()">Show</button>
+        <button onclick="hide()">Hide</button>
+    </div>
+
+
+    <script>
+        let div = document.querySelector(".rectengle");
+
+        function changeTheCircle() {
+            div.style.borderRadius = "50%";
+        }
+
+        function hide() {
+            div.style.display = "none";
+        }
+
+        function show() {
+            div.style.display = "block";
+        }
+
+        div.onmouseenter = function() {
+            div.style.backgroundColor = "red";
+        }
+
+        div.onmouseleave = function() {
+            div.style.backgroundColor = "transparent";
+        };
+    </script>
+</body>
+</html>
